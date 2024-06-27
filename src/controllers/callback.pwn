@@ -10,7 +10,4 @@
  *  Desription:                                                   
 */
 
-public OnServerStart()
-{
-    views_PrintCLI();
-}
+

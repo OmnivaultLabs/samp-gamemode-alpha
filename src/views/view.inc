@@ -13,8 +13,8 @@
 
 #if !defined __ADAPTER_VIEW_INC
 
-    forward views_PrintCLI();
+    // forward views_PrintCLI();
 
-    #include "views/terminal.pwn"
+    #include "views/dialog.pwn"
     #define __ADAPTER_VIEW_INC
 #endif

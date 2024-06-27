@@ -6,46 +6,41 @@
  *     | |  | |/ ____ \ _| |_| |\  | | |     _| |_| |____| |____
  *     |_|  |_/_/    \_\_____|_| \_| |_|    |_____|______|______|
  *
- *  Create by Aaron_Glassman
+ *  Create by Aaron_Glassman (IC) uphokaew (OOC)
+ *  Discord: beok159
  *  Github: https://github.com/uphokaew
  *
- *  Project: Experimental Project!
+ *  Project: Experimental Project!, Gamemode Roleplay. for RP Classic Community
  *  Desription: connect all file to Appication.pwn for start point for compile on MVC Architecture.
 */
-
-#define CONNECTOR_PMVC
 
 #include <adapter.inc>
 
 #if defined FILTERSCRIPT
 
-public OnFilterScriptInit()
-{
-    print("\n--------------------------------------");
-    print(" ON Filterscript");
-    print("--------------------------------------\n");
-    return (true);
-}
+    public OnFilterScriptInit()
+    {
+        return (true);
+    }
 
-public OnFilterScriptExit()
-{
-    return (true);
-}
+    public OnFilterScriptExit()
+    {
+        return (true);
+    }
 
 #else
 
-main()
-{
-    print("\n----------------------------------");
-    print(" OFF Filterscript");
-    print("----------------------------------\n");
-}
+    main()
+    {
+        printf("%d", _:n);
+    }
 
 #endif
 
 public OnGameModeInit()
 {
     OnServerStart();
+    SetGameModeText(sprintf("Hello %s. %d %d %d.", "world", 1, 2, 3));
     return (true);
 }
 

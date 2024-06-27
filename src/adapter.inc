@@ -13,9 +13,7 @@
 
 #if !defined __ADAPTER_INC
     #include <a_samp>
-
-    // DIR FOR UTILS
-    #include <utils/util>
+    #include <strlib>
 
     // DIR FOR VIEW
     #include <views/view>
