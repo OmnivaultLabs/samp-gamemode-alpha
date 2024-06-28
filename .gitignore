@@ -1,4 +1,4 @@
-*/*.amx
+gamemodes/*.amx
 *.xml
 *.amx
 *.txt

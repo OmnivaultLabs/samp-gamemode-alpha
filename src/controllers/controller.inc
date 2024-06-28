@@ -13,8 +13,6 @@
 
 #if !defined __ADAPTER_CONTROLLER_INC
 
-    forward OnServerStart();
-    forward OnServerEnd();
 
     #include "controllers/callback.pwn"
     #define __ADAPTER_CONTROLLER_INC

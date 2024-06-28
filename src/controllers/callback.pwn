@@ -11,3 +11,7 @@
 */
 
 
+public GameServerInit()
+{
+    print(sprintf("Hello %s. %d %d %d.", "world", 1, 2, 3));
+}

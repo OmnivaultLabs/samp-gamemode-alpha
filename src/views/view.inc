@@ -13,8 +13,13 @@
 
 #if !defined __ADAPTER_VIEW_INC
 
-    // forward views_PrintCLI();
+    #define COLOR_TEXT_SUCCESS 0x883
+    #define COLOR_TEXT_WARNING 0x883
+    #define COLOR_TEXT_ERROR 0x883
 
-    #include "views/dialog.pwn"
+    forward useSSF();
+
+    #include "views/server/presence.pwn"
+    #include "views/dialogs/dialog.pwn"
     #define __ADAPTER_VIEW_INC
 #endif

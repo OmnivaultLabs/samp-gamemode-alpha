@@ -32,15 +32,14 @@
 
     main()
     {
-        printf("%d", _:n);
+        print(ret_strtrim("  |asdas daas|  ", " "));
     }
 
 #endif
 
 public OnGameModeInit()
 {
-    OnServerStart();
-    SetGameModeText(sprintf("Hello %s. %d %d %d.", "world", 1, 2, 3));
+    useSSF();
     return (true);
 }
 
