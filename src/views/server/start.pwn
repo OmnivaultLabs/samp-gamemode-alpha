@@ -7,11 +7,17 @@
  *     |_|       \/  \/   |_| \_|  |_|    |_____|______|______|
  *
  *
- *  Desription: SHOW PresenceServer
+ *  Desription: 
 */
 
-public useSSF()
+public useStartSF()
 {
     DisableInteriorEnterExits();
     SetGameModeText("Experimental Project!");
+    return (true);
+}
+
+public usePlayerConnect(playerid)
+{
+    return (PlayerConnecting(playerid));
 }

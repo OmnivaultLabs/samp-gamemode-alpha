@@ -14,6 +14,6 @@
 #if !defined __ADAPTER_CONTROLLER_INC
 
 
-    #include "controllers/callback.pwn"
+    #include "controllers/server.pwn"
     #define __ADAPTER_CONTROLLER_INC
 #endif

@@ -32,15 +32,13 @@
 
     main()
     {
-        print(ret_strtrim("  |asdas daas|  ", " "));
     }
 
 #endif
 
 public OnGameModeInit()
 {
-    useSSF();
-    return (true);
+    return (useStartSF());
 }
 
 public OnGameModeExit()
@@ -48,17 +46,17 @@ public OnGameModeExit()
     return (true);
 }
 
-public OnPlayerRequestClass(playerid, classid)
-{
-    return (true);
-}
-
 public OnPlayerConnect(playerid)
 {
-    return (true);
+    return (usePlayerConnect(playerid));
 }
 
 public OnPlayerDisconnect(playerid, reason)
+{
+    return (true);
+}
+
+public OnPlayerRequestClass(playerid, classid)
 {
     return (true);
 }

@@ -10,8 +10,7 @@
  *  Desription:                                                   
 */
 
-
-public GameServerInit()
+public PlayerConnecting(playerid)
 {
-    print(sprintf("Hello %s. %d %d %d.", "world", 1, 2, 3));
+    return (true);
 }
