@@ -7,13 +7,11 @@
  *     |_|       \/  \/   |_| \_|  |_|    |_____|______|______|
  *
  *
- *  Desription: 
+ *  Desription:
 */
 
-public useStartSF()
+public useGameModeInit()
 {
-    DisableInteriorEnterExits();
-    SetGameModeText("Experimental Project!");
     return (true);
 }
 

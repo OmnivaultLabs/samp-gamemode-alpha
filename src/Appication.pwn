@@ -30,15 +30,15 @@
 
 #else
 
-    main()
-    {
-    }
+    main(){}
 
 #endif
 
 public OnGameModeInit()
 {
-    return (useStartSF());
+    DisableInteriorEnterExits();
+    SetGameModeText("Experimental Project!");
+    return (useGameModeInit());
 }
 
 public OnGameModeExit()

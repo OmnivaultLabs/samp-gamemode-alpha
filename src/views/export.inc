@@ -13,7 +13,7 @@
 
 #if !defined __ADAPTER_VIEW_EXPORT_INC
 
-    forward useStartSF();
+    forward useGameModeInit();
     forward usePlayerConnect(playerid);
 
     #define __ADAPTER_VIEW_EXPORT_INC
