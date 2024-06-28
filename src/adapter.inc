@@ -13,7 +13,6 @@
         - view        (V)
         - controllers (C)
     Controller use callback all function in view and module but not invert.
-
 */ 
 
 #if !defined __ADAPTER_INC
@@ -22,15 +21,15 @@
 
     // DECLEARTION FUNCTION CALLBACK TO GLOBAL
     // USE MODULE AND CONTROLLER FUNCTION TO VIEW OR USE CONTROLLER AND VIEW TO MODULE
-    // CONTROLLER TO UP
-
-    forward PlayerConnecting(playerid);
 
     // CONTROLLER
+    #include <controllers/export>
 
     // VIEW
-    forward useStartSF();
-    forward usePlayerConnect(playerid);
+    #include <views/export>
+
+    // MODULE
+    #include <modules/export>
 
     // DIR FOR MODULES
     #include <modules/module>
