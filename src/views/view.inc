@@ -13,7 +13,7 @@
 
 #if !defined __ADAPTER_VIEW_INC
 
-    #include "views/server/filter.pwn"
+    #include "views/server/filter_player.pwn"
     #include "views/dialogs/dialog.pwn"
     #define __ADAPTER_VIEW_INC
 #endif

@@ -17,5 +17,11 @@ public useGameModeInit()
 
 public usePlayerConnect(playerid)
 {
+    new player_name[20];
+
+    GetPlayerName(playerid, player_name, 20);
+    if (strcount(player_name, "_") != 1)
+        Kick(playerid);
     return (PlayerConnecting(playerid));
 }
+
