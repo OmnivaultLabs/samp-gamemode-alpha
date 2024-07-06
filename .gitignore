@@ -2,3 +2,4 @@ gamemodes/*.amx
 *.xml
 *.amx
 *.txt
+logs
