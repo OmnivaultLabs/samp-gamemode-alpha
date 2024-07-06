@@ -13,8 +13,6 @@
 
 #if !defined __ADAPTER_VIEW_EXPORT_INC
 
-    forward useGameModeInit();
-    forward usePlayerConnect(playerid);
 
     #define __ADAPTER_VIEW_EXPORT_INC
 #endif

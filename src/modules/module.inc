@@ -13,14 +13,14 @@
 
 #if !defined __ADAPTER_MODULE_INC
 
-	#define		MYSQL_HOST 			"192.168.114.190"
+	#define		MYSQL_HOST 			"localhost"
 	#define		MYSQL_USER 			"root"
 	#define		MYSQL_PASSWORD 		"persona_secret"
 	#define		MYSQL_DATABASE 		"db_persona"
 
-	new	MySQL: ServerMySQL;
+	new	MySQL:ServerMySQL;
 
-	#include "modules/database/connect.pwn"
+	#include "modules/database/mysql.pwn"
 
     #define __ADAPTER_MODULE_INC
 #endif

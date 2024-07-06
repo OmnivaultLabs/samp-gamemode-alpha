@@ -10,17 +10,17 @@
  *  Desription:
 */
 
-public useGameModeInit()
+public GameModeInit()
 {
     return (true);
 }
 
-public usePlayerConnect(playerid)
+public PlayerConnect(playerid)
 {
     new player_name[20];
 
-    GetPlayerName(playerid, player_name, 20);
+    GetPlayerName(playerid, player_name, sizeof(player_name));
     if (strcount(player_name, "_") != 1)
         Kick(playerid);
-    return (PlayerConnecting(playerid));
+    return (true);
 }

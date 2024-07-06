@@ -38,7 +38,7 @@ public OnGameModeInit()
 {
     DisableInteriorEnterExits();
     SetGameModeText("Experimental Project!");
-    return (useGameModeInit());
+    return (GameModeInit());
 }
 
 public OnGameModeExit()
@@ -48,7 +48,7 @@ public OnGameModeExit()
 
 public OnPlayerConnect(playerid)
 {
-    return (usePlayerConnect(playerid));
+    return (PlayerConnect(playerid));
 }
 
 public OnPlayerDisconnect(playerid, reason)

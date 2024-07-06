@@ -14,7 +14,6 @@
 #if !defined __ADAPTER_CONTROLLER_INC
 
 
-
-    #include "controllers/players/player.pwn"
+	#include "controllers/server/gamemode.pwn"
     #define __ADAPTER_CONTROLLER_INC
 #endif

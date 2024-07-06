@@ -13,7 +13,8 @@
 
 #if !defined __ADAPTER_CONTROLLER_EXPORT_INC
 
-    forward PlayerConnecting(playerid);
+	forward GameModeInit();
+    forward PlayerConnect(playerid);
 
     #define __ADAPTER_CONTROLLER_EXPORT_INC
 #endif
