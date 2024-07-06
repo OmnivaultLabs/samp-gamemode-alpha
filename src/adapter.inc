@@ -13,10 +13,11 @@
         - view        (V)
         - controllers (C)
     Controller use callback all function in view and module but not invert.
-*/ 
+*/
 
 #if !defined __ADAPTER_INC
     #include <a_samp>
+	#include <a_mysql>
     #include <strlib>
 
     // DECLEARTION FUNCTION CALLBACK TO GLOBAL

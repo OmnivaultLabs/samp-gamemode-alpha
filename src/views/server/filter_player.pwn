@@ -24,4 +24,3 @@ public usePlayerConnect(playerid)
         Kick(playerid);
     return (PlayerConnecting(playerid));
 }
-

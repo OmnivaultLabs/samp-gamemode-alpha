@@ -12,5 +12,8 @@
 */
 
 #if !defined __ADAPTER_MODULE_EXPORT_INC
+
+	forward DataBaseConnect();
+
     #define __ADAPTER_MODULE_EXPORT_INC
 #endif
