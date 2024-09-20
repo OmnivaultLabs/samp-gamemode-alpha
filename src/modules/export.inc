@@ -13,7 +13,7 @@
 
 #if !defined __ADAPTER_MODULE_EXPORT_INC
 
-	forward ServerMySqlInit();
+	// forward ServerMySqlInit();
 
     #define __ADAPTER_MODULE_EXPORT_INC
 #endif

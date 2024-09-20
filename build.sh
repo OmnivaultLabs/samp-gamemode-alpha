@@ -1,6 +1,8 @@
 #! /bin/sh
 set -eu
 
+mkdir -p gamemodes
+
 docker run --rm -it \
 -w /home/user/server/ \
 -v "$(pwd):/home/user/server/" beok159/pawncc \

@@ -18,7 +18,7 @@
 	#define		MYSQL_PASSWORD 		"persona_secret"
 	#define		MYSQL_DATABASE 		"db_persona"
 
-	new	MySQL:ServerMySQL;
+	// new	MySQL:ServerMySQL;
 
 	#include "modules/database/mysql.pwn"
 
