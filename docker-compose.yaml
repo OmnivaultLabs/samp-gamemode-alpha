@@ -1,0 +1,20 @@
+# version: '3'
+services:
+  samp-server:
+    image: beok159/samp-server
+    ports:
+      - "7777:7777"
+      - "7777:7777/udp"
+    volumes:
+      - ./:/home/user/
+    # environment:
+    #   MYSQL_HOST: "mysql"
+    #   MYSQL_USER: "root"
+    #   MYSQL_PASSWORD: "persona_secret"
+    #   MYSQL_DATABASE: "db_persona"
+#     networks:
+#       - persona_network
+
+# networks:
+#   persona_network:
+    # external: true
