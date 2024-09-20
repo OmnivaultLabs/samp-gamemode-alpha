@@ -19,6 +19,10 @@
     #include <a_samp>
 	#include <a_mysql>
     #include <strlib>
+	#include <file>
+
+	#include <utils/export>
+	#include <utils/utils>
 
     // DECLEARTION FUNCTION CALLBACK TO GLOBAL
     // USE MODULE AND CONTROLLER FUNCTION TO VIEW OR USE CONTROLLER AND VIEW TO MODULE
@@ -40,6 +44,7 @@
 
     // DIR FOR CONTROLLERS
     #include <controllers/controller>
+
 
     #define __ADAPTER_INC
 #endif

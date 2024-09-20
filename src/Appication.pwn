@@ -18,19 +18,31 @@
 
 #if defined FILTERSCRIPT
 
-    public OnFilterScriptInit()
-    {
-        return (true);
-    }
+public OnFilterScriptInit()
+{
+    return (true);
+}
 
-    public OnFilterScriptExit()
-    {
-        return (true);
-    }
+public OnFilterScriptExit()
+{
+    return (true);
+}
 
 #else
 
-    main(){}
+main()
+{
+    new File:handle = fopen("test.txt", io_read);
+    new	buf[128];
+
+    if (handle)
+    {
+        while (fread(handle, buf)) print(buf);
+        fclose(handle);
+    }
+    else
+        print("The file \"file.txt\" does not exists, or can't be opened.");
+}
 
 #endif
 
