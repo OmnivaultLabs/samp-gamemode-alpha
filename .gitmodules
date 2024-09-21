@@ -1,4 +1,4 @@
-[submodule "sub-project"]
-	path = lib
-	url = https://github.com/LennonRuangjaroon/sub-project.git
-	branch = master
+[submodule "libserver"]
+	path = libserver
+	url = git@github.com:PersonalTeams/plugins-utils-samp.git
+	branch = main
