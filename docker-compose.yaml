@@ -10,20 +10,6 @@ services:
 
     networks:
       - persona_network
-  
-  nginx:
-    image: nginx
-    container_name: nginx-samp
-    restart: always
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf:ro
-    depends_on:
-      - samp-server
-    ports:
-      # - "7777:7777"
-      - "8888:7777/udp"
-    networks:
-      - persona_network
 
 networks:
   persona_network:

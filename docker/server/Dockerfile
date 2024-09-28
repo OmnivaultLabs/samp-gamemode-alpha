@@ -15,6 +15,6 @@ USER user
 
 WORKDIR /home/user
 
-COPY omp-server /opt/open.mp
+COPY samp03svr samp-npc announce /opt/samp/
 
-CMD ["/opt/open.mp/omp-server"]
+CMD ["/opt/samp/samp03svr"]
