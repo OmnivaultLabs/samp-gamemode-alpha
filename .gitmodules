@@ -2,7 +2,7 @@
 	path = libserver
 	url = git@github.com:PersonalTeams/plugins-utils-samp.git
 	branch = main
-[submodule "data"]
-	path = data
+[submodule "api"]
+	path = api
 	url = git@github.com:PersonalTeams/API-Project-SAMP.git
 	branch = main
